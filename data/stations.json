@@ -1407,5 +1407,38 @@
 			{"style": "ratp", "link": "https://enrail.org/ratp/?style=panam&station=Colonel%20Fabien&line=2&sens=Porte:b:Dauphine&stationcode=71893&linecode=C01372&destcode=Porte%20Dauphine&destcodealt=false"},
 			{"style": "ratp", "link": "https://enrail.org/ratp/?style=panam&station=Colonel%20Fabien&line=2&sens=Nation&stationcode=71893&linecode=C01372&destcode=Nation&destcodealt=false"}
 		]
-}
+	},
+
+	"Pigalle": {
+		"nom": "Pigalle",
+		"lignes": [
+			{ "type": "metro", "lines": ["2", "12"] }
+		],
+		"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Paris_Metro_12_Pigalle_Eingang_West.JPG/1280px-Paris_Metro_12_Pigalle_Eingang_West.JPG",
+		"imagepage": "https://commons.wikimedia.org/wiki/File:Paris_Metro_12_Pigalle_Eingang_West.JPG",
+		"imageauthor": "Bellomonte",
+		"statistiques": [
+			{
+				"lignes": [
+					{ "type": "metro", "lines": ["2", "12"] }
+				],
+				"ouverture": "7 octobre 1902",
+				"voies": "4",
+				"quais": "4",
+				"zone_tarifaire": "1",
+				"accessible": "Non",
+				"communes": ["Paris (IX<sup>er</sup>, XVIII<sup>e</sup>)"],
+				"frequentation": "3 501 831 voyageurs (2021)"
+			}
+		],
+		"sorties": [
+			{"numero": "2", "description": "place Pigalle"}
+		],
+		"enrail_links": [
+			{"style": "ratp", "link": "https://enrail.org/ratp/?style=panam&station=Pigalle&line=2&sens=Porte:b:Dauphine&stationcode=44345&linecode=C01372&destcode=Porte%20Dauphine&destcodealt=false"},
+			{"style": "ratp", "link": "https://enrail.org/ratp/?style=panam&station=Pigalle&line=2&sens=Nation&stationcode=44345&linecode=C01372&destcode=Nation&destcodealt=false"},
+			{"style": "ratp", "link": "https://enrail.org/ratp/?style=panam&station=Pigalle&line=12&sens=Aubervilliers&stationcode=44345&linecode=C01382&destcode=Mairie%20d'Aubervilliers&destcodealt=false"},
+			{"style": "ratp", "link": "https://enrail.org/ratp/?style=panam&station=Pigalle&line=12&sens=Mairie%20d'Issy&stationcode=44345&linecode=C01382&destcode=Mairie%20d'Issy&destcodealt=false"}
+		]
+	}
 }
