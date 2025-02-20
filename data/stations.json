@@ -1312,5 +1312,37 @@
 			{"style": "ratp", "link": "https://enrail.org/ratp/?style=panam&station=Barbès-Rochechouart&line=4&sens=Porte%20de:b:Clignancourt&stationcode=42280&linecode=C01374&destcode=Porte%20de%20Clignancourt&destcodealt=false"},
 			{"style": "ratp", "link": "https://enrail.org/ratp/?style=panam&station=Barbès-Rochechouart&line=4&sens=Bagneux&stationcode=42280&linecode=C01374&destcode=BAGNEUX-LUCIE%20AUBRAC&destcodealt=false"}
 		]
+	},
+
+	"La Chapelle": {
+		"nom": "La Chapelle",
+		"lignes": [
+			{ "type": "metro", "lines": ["2"]}
+		],
+		"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/MF2000_at_La_Chapelle.jpg/1280px-MF2000_at_La_Chapelle.jpg",
+		"imagepage": "https://commons.wikimedia.org/wiki/File:MF2000_at_La_Chapelle.jpg",
+		"imageauthor": "Matthew Black",
+		"statistiques": [
+			{
+				"lignes": [
+					{ "type": "metro", "lines": ["2"] }
+				],
+				"ouverture": "31 janvier 1903",
+				"voies": "2",
+				"quais": "2",
+				"zone_tarifaire": "1",
+				"accessible": "Non",
+				"communes": ["Paris (X<sup>e</sup>, XVIII<sup>e</sup>)"],
+				"frequentation": "4 855 531 voyageurs (2021)"
+			}
+		],
+		"sorties": [
+			{"numero": "1", "description": "boulevard de la Chapelle"}
+		],
+		"enrail_links": [
+			{"style": "ratp", "link": "https://enrail.org/ratp/?style=panam&station=La%20Chapelle&line=2&sens=Porte:b:Dauphine&stationcode=43524&linecode=C01372&destcode=Porte%20Dauphine&destcodealt=false"},
+			{"style": "ratp", "link": "https://enrail.org/ratp/?style=panam&station=La%20Chapelle&line=2&sens=Nation&stationcode=43524&linecode=C01372&destcode=Nation&destcodealt=false"}
+			
+		]
 	}
 }
