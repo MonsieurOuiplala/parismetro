@@ -1375,5 +1375,37 @@
 			{"style": "ratp", "link": "https://enrail.org/ratp/?style=panam&station=M%C3%A9nilmontant&line=2&sens=Porte:b:Dauphine&stationcode=44133&linecode=C01372&destcode=Porte%20Dauphine&destcodealt=false"},
 			{"style": "ratp", "link": "https://enrail.org/ratp/?style=panam&station=M%C3%A9nilmontant&line=2&sens=Nation&stationcode=44133&linecode=C01372&destcode=Nation&destcodealt=false"}
 		]
+	},
+
+	"Colonel Fabien": {
+		"nom": "Colonel Fabien",
+		"lignes": [
+			{ "type": "metro", "lines": ["2"] }
+		],
+		"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Entr%C3%A9e_Station_M%C3%A9tro_Colonel_Fabien_Paris_4.jpg/1280px-Entr%C3%A9e_Station_M%C3%A9tro_Colonel_Fabien_Paris_4.jpg",
+		"imagepage": "https://commons.wikimedia.org/wiki/File:Entr%C3%A9e_Station_M%C3%A9tro_Colonel_Fabien_Paris_4.jpg",
+		"imageauthor": "Chabe01",
+		"statistiques": [
+			{
+				"lignes": [
+					{ "type": "metro", "lines": ["2"] }
+				],
+				"ouverture": "31 janvier 1903",
+				"inaugural": "Combat",
+				"voies": "2",
+				"quais": "2",
+				"zone_tarifaire": "1",
+				"accessible": "Non",
+				"communes": ["Paris (X<sup>e</sup>, XIX<sup>e</sup>)"],
+				"frequentation": "3 043 606 voyageurs (2021)"
+			}
+		],
+		"sorties": [
+			{"numero": "1", "description": "boulevard de la Villette"}
+		],
+		"enrail_links": [
+			{"style": "ratp", "link": "https://enrail.org/ratp/?style=panam&station=Colonel%20Fabien&line=2&sens=Porte:b:Dauphine&stationcode=71893&linecode=C01372&destcode=Porte%20Dauphine&destcodealt=false"},
+			{"style": "ratp", "link": "https://enrail.org/ratp/?style=panam&station=Colonel%20Fabien&line=2&sens=Nation&stationcode=71893&linecode=C01372&destcode=Nation&destcodealt=false"}
+		]
 }
 }
