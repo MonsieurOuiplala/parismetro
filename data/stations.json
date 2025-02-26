@@ -1508,5 +1508,37 @@
 			{"style": "ratp", "link": "https://enrail.org/ratp/?style=panam&station=Rome&line=2&sens=Porte:b:Dauphine&stationcode=44662&linecode=C01372&destcode=Porte%20Dauphine&destcodealt=false"},
 			{"style": "ratp", "link": "https://enrail.org/ratp/?style=panam&station=Rome&line=2&sens=Nation&stationcode=44662&linecode=C01372&destcode=Nation&destcodealt=false"}
 		   ]
+	},
+
+	"Victor Hugo": {
+		"nom": "Victor Hugo",
+		"lignes": [
+			{ "type": "metro", "lines": ["2"] }
+		],
+		"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Acc%C3%A8s_Station_M%C3%A9tro_Victor_Hugo_Place_Victor_Hugo_-_Paris_XVI_%28FR75%29_-_2022-01-23_-_6.jpg/768px-Acc%C3%A8s_Station_M%C3%A9tro_Victor_Hugo_Place_Victor_Hugo_-_Paris_XVI_%28FR75%29_-_2022-01-23_-_6.jpg",
+		"imagepage": "https://commons.wikimedia.org/wiki/File:Acc%C3%A8s_Station_M%C3%A9tro_Victor_Hugo_Place_Victor_Hugo_-_Paris_XVI_(FR75)_-_2022-01-23_-_6.jpg",
+		"imageauthor": "Chabe01",
+		"statistiques": [
+			{
+				"lignes": [
+					{ "type": "metro", "lines": ["2"] }
+				],
+				"ouverture": "13 décembre 1900",
+				"voies": "2",
+				"quais": "2",
+				"zone_tarifaire": "1",
+				"accessible": "Non",
+				"communes": ["Paris (XVI<sup>e</sup>"],
+				"frequentation": "2 801 041 voyageurs (2021)"
+			}
+		],
+		"sorties": [
+			{"numero": "1", "description": "avenue Victor Hugo"},
+			{"numero": "2", "description": "avenue Raymond Poincaré"}
+		],
+		"enrail_links": [
+			{"style": "ratp", "link": "https://enrail.org/ratp/?style=panam&station=Victor%20Hugo&line=2&sens=Porte:b:Dauphine&stationcode=45020&linecode=C01372&destcode=Porte%20Dauphine&destcodealt=false"},
+			{"style": "ratp", "link": "https://enrail.org/ratp/?style=panam&station=Victor%20Hugo&line=2&sens=Nation&stationcode=45020&linecode=C01372&destcode=Nation&destcodealt=false"}
+		]
 	}
 }
